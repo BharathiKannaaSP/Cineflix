@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    height:60px;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    padding-bottom: 2px;
+    box-shadow: 0px 1px 5px rgb(68, 70, 71);
+    color: aqua;
+    z-index: 100;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  .spanheader{
+     
+      font-size: 30px;
+      padding-top: 18px;
+      letter-spacing: 10px;
+  }
+  .img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+  @media (max-width: 1000px) {
+    .header {
+      font-size: 30px;
+    }
+    .img{
+        width:50px;
+        height:50px;
+      
+    }
+  }
+
+  
